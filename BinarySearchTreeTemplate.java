@@ -1,6 +1,6 @@
+// TEMPLATE FILE, DON'T EDIT
 
-
-public class BinarySearchTree {
+public class BinarySearchTreeTemplate {
     class Node {
         int key;
         Node left, right;
@@ -18,7 +18,7 @@ public class BinarySearchTree {
 
     Node root;
 
-    BinarySearchTree() {
+    BinarySearchTreeTemplate() {
         root = null;
     }
 
