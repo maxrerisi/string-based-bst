@@ -56,7 +56,7 @@ public class BinarySearchTreeTemplate {
         // return searchRec(root, key) != null;
         Node out = searchRec(root, key);
         if (out == null) {
-            return "false";
+            return null;
         }
         return out.getData();
     }
