@@ -18,11 +18,11 @@ public class BinarySearchTreeTemplate {
 
     Node root;
 
-    BinarySearchTreeTemplate() {
+    public BinarySearchTreeTemplate() {
         root = null;
     }
 
-    void insert(int key, String data) {
+    public void insert(int key, String data) {
         root = insertRec(root, key, data);
     }
 
@@ -40,7 +40,7 @@ public class BinarySearchTreeTemplate {
         return root;
     }
 
-    void inorder() {
+    public void inorder() {
         inorderRec(root);
     }
 
@@ -52,7 +52,7 @@ public class BinarySearchTreeTemplate {
         }
     }
 
-    String search(int key) {
+    public String search(int key) {
         // return searchRec(root, key) != null;
         Node out = searchRec(root, key);
         if (out == null) {
